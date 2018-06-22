@@ -3,11 +3,7 @@ const context=canvas.getContext('2d');
 
 //context.scale(20,20);
 
-const player={
-    pos:{x:0,y:0},
-    matrix:null,
-    score:0,
-};
+const player=new Player;
 const arena=createMatrix(24,40);
 const color=[null, '#ee0055', '#ff9900', '#ffff00', '#00ee99', '#0088dd', '#00ccff', '#ffaacc'];
 
